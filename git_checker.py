@@ -47,12 +47,12 @@ def checkAuthorEmail(logFile, email):
     f.close()
     return result
 
-logFlie = "log.txt"
+logFile = "log.txt"
 name = "username"
 email = "email@test.com"
 
-print(f'커밋날짜 순서체크 : {checkDateOrder(logFlie)}')
-print(f'커밋저자 이름체크 : {checkAuthorName(logFlie, name)}')
-print(f'커밋저자 메일체크 : {checkAuthorEmail(logFlie, email)}')
+print(f'커밋날짜 순서체크 : {checkDateOrder(logFile)}')
+print(f'커밋저자 이름체크 : {checkAuthorName(logFile, name)}')
+print(f'커밋저자 메일체크 : {checkAuthorEmail(logFile, email)}')
 
-input("")
+input("엔터를 누르면 종료")
