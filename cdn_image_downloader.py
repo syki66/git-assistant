@@ -42,3 +42,5 @@ def downloadCDNImage(logFile):
 
 logFile = "log.txt"
 downloadCDNImage(logFile)
+
+input("엔터를 누르면 종료")
